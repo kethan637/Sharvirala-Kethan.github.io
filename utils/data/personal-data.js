@@ -2,7 +2,7 @@ export const personalData = {
   name: "Sharvirala Kethan",
   profile: '/profile.png',
   designation: "Software Developer",
-  description: "My name is Sharvirala Kethan. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
+  description: "My name is Sharvirala Kethan. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude, always eager to explore new technologies and solve challenging problems. I have a strong passion for Python-related work, whether it’s building applications, automating tasks, or analyzing data. Python’s versatility excites me, and I enjoy leveraging it to create efficient and scalable solutions. I am available for any job opportunity that aligns with my skills and interests, where I can contribute effectively and continue to grow.",
   email: 'kethankumar637@gmail.com',
   phone: '+8801608797655',
   address: 'Middle Badda, Dhaka, Bangladesh - 1212 ',
