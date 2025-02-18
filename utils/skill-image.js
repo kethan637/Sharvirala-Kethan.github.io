@@ -72,6 +72,9 @@ import vuetifyjs from '../app/assets/svg/skills/vuetifyjs.svg';
 import webix from '../app/assets/svg/skills/webix.svg';
 import wolframalpha from '../app/assets/svg/skills/wolframalpha.svg';
 import wordpress from '../app/assets/svg/skills/wordpress.svg';
+import ros from '../app/assets/svg/skills/ros.svg';
+import ml from '../app/assets/svg/skills/ml.svg';
+import gitlab from '../app/assets/svg/skills/gitlab.svg';
 
 import pandas from '../app/assets/svg/skills/pandas.svg';
 import scikitlearn from '../app/assets/svg/skills/scikit-learn.svg';
@@ -89,6 +92,12 @@ export const skillsImage = (skill) => {
   switch (skillID) {
     case 'gcp':
       return gcp;
+    case 'ros':
+      return ros;
+    case 'ml':
+      return ml;
+    case 'gitlab':
+      return gitlab;
     case 'html':
       return html;
     case 'photoshop':
