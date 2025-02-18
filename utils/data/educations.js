@@ -1,20 +1,20 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Bachelor of Engineering",
+    duration: "2019 - 2023",
+    institution: "Sathyabama Instuite of science and technology,Chennai",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "Telangana State Board of Intermediate Education",
+    duration: "2017 - 2019",
+    institution: "Sri Chaithanaya Junior Kalasala,Hyderabad",
   },
   {
     id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    title: "Board of Secondary Education,Telangana",
+    duration: "2016 - 2017",
+    institution: "City Central School",
   }
 ]
