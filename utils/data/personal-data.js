@@ -4,7 +4,7 @@ export const personalData = {
   designation: "Software Developer",
   description: "My name is Sharvirala Kethan. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude, always eager to explore new technologies and solve challenging problems. I have a strong passion for Python-related work, whether it’s building applications, automating tasks, or analyzing data. Python’s versatility excites me, and I enjoy leveraging it to create efficient and scalable solutions. I am available for any job opportunity that aligns with my skills and interests, where I can contribute effectively and continue to grow.",
   email: 'kethankumar637@gmail.com',
-  phone: '+91 8555928602',
+  // phone: '+91 8555928602',
   address: 'Miryalaguda, Nalgonda, Telangana - 508207',
   github: 'https://github.com/kethan637',
   facebook: 'https://www.facebook.com/profile.php?id=100006669617273',
