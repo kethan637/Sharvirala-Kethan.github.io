@@ -4,10 +4,11 @@ import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
+import { FaFacebook, FaXTwitter } from "react-icons/fa6";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
-import { SiLeetcode } from "react-icons/si";
+import { FaHackerrank } from "react-icons/fa";
+
 
 function HeroSection() {
   return (
@@ -54,18 +55,18 @@ function HeroSection() {
               <FaFacebook size={30} />
             </Link>
             <Link
-              href={personalData.leetcode}
+              href={personalData.hackerRank}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
-              <SiLeetcode size={30} />
+              <FaHackerrank size={30} />
             </Link>
             <Link
               href={personalData.twitter}
               target='_blank'
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
-              <FaTwitterSquare size={30} />
+              <FaXTwitter size={30} />
             </Link>
           </div>
 
@@ -116,7 +117,7 @@ function HeroSection() {
                 <span className="text-gray-400">{`['`}</span>
                 <span className="text-amber-300">Python</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Machin Learning</span>
+                <span className="text-amber-300">Machine Learning</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">HTML</span>
                 <span className="text-gray-400">{"', '"}</span>
@@ -125,6 +126,8 @@ function HeroSection() {
                 <span className="text-amber-300">Docker</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">ROS</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Reinforcement learning</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div>

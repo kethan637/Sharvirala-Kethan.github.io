@@ -11,7 +11,7 @@ export const personalData = {
   linkedIn: 'https://www.linkedin.com/in/kethan-sharvirala-55aa83174/',
   twitter: 'https://x.com/KethanShar34917',
   stackOverflow: 'https://stackoverflow.com/users/14221537/kethan-kumar',
-  leetcode: "https://leetcode.com/said3812/",
+  hackerRank: "https://www.hackerrank.com/profile/kethankumar637",
   devUsername: "Kethan",
-  resume: "https://drive.google.com/file/d/1xoYujLB3k9kSSz1sMFEtn7SVakZ1WVM5/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1HDd1gN37jNk9i254jC0gU4T4yUcULjfP/view?usp=sharing"
 }

@@ -37,10 +37,16 @@ function Experience() {
           </div>
 
           <div>
-            <div className="flex flex-col gap-6">
-              {
-                experiences.map(experience => (
-                  <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>
+          <div className="flex flex-col gap-6">
+              {experiences.map((experience) => (
+                <a 
+                  key={experience.id} 
+                  href="https://www.linkedin.com/in/kethan-sharvirala-55aa83174/details/experience/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="block"
+                >
+                  <GlowCard identifier={`experience-${experience.id}`} className="cursor-pointer">
                     <div className="p-3 relative">
                       <Image
                         src="/blur-23.svg"
@@ -55,7 +61,7 @@ function Experience() {
                         </p>
                       </div>
                       <div className="flex items-center gap-x-8 px-3 py-5">
-                        <div className="text-violet-500  transition-all duration-300 hover:scale-125">
+                        <div className="text-violet-500 transition-all duration-300 hover:scale-125">
                           <BsPersonWorkspace size={36} />
                         </div>
                         <div>
@@ -69,8 +75,8 @@ function Experience() {
                       </div>
                     </div>
                   </GlowCard>
-                ))
-              }
+                </a>
+              ))}
             </div>
           </div>
         </div>
