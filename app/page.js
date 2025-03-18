@@ -75,7 +75,7 @@ export default async function Home() {
       <Certificate />
       <Projects />
       <Education />
-      <Blog blogs={blogs} />
+      {/* <Blog blogs={blogs} />? */}
       <ContactSection />
     </div>
   )
