@@ -13,6 +13,10 @@ export const skillsData = [
   'mysql',
   'figma',
   'git',
+  'Azure Synapse',
+  'ETL',
+  // 'Data Engineering',
+  'Azure'
   // 'Machine learning'
   // 'Typescript',
   // 'React',

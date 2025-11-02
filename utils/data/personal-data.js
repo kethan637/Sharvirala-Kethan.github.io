@@ -1,8 +1,8 @@
 export const personalData = {
   name: "Sharvirala Kethan",
   profile: '/profile.png',
-  designation: "Software Developer",
-  description: "My name is Sharvirala Kethan. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude, always eager to explore new technologies and solve challenging problems. I have a strong passion for Python-related work, whether it’s building applications, automating tasks, or analyzing data. Python’s versatility excites me, and I enjoy leveraging it to create efficient and scalable solutions. I am available for any job opportunity that aligns with my skills and interests, where I can contribute effectively and continue to grow.",
+  designation: "Data Engineer & Data Scientist",
+  description: "My name is Sharvirala Kethan. I am a passionate Data Engineer and Data Scientist with a strong foundation in Python, SQL, and data-driven problem-solving. I specialize in designing and implementing data pipelines, transforming raw data into actionable insights, and developing scalable analytical solutions. With hands-on experience in data processing, ETL workflows, SQL optimization, and machine learning, I thrive on turning complex datasets into meaningful outcomes.Alongside my data expertise, I also have experience in software development, allowing me to bridge the gap between engineering and analytics. I am a quick learner with a self-driven attitude, always eager to explore new technologies and deliver efficient, impactful solutions. I’m open to opportunities where I can contribute, innovate, and continue growing as a data professional.",
   email: 'kethankumar637@gmail.com',
   // phone: '+91 8555928602',
   address: 'Miryalaguda, Nalgonda, Telangana - 508207',

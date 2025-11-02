@@ -29,6 +29,8 @@ import go from '../app/assets/svg/skills/go.svg';
 import graphql from '../app/assets/svg/skills/graphql.svg';
 import haxe from '../app/assets/svg/skills/haxe.svg';
 import html from '../app/assets/svg/skills/html.svg';
+import ETL from '../app/assets/svg/skills/ETL.svg';
+import AzureSynapse from '../app/assets/svg/skills/AzureSynapse.svg';
 import illustrator from '../app/assets/svg/skills/illustrator.svg';
 import ionic from '../app/assets/svg/skills/ionic.svg';
 import java from '../app/assets/svg/skills/java.svg';
@@ -100,6 +102,10 @@ export const skillsImage = (skill) => {
       return gitlab;
     case 'html':
       return html;
+    case 'azure synapse':
+      return AzureSynapse;
+    case 'etl':
+      return ETL;
     case 'photoshop':
       return photoshop;
     case 'docker':
