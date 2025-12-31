@@ -8,10 +8,22 @@ function Navbar() {
       <div className="flex items-center justify-between py-5">
         <div className="flex flex-shrink-0 items-center">
           <Link
-            href="/"
-            className=" text-[#16f2b3] text-3xl font-bold">
-            Unfolding My Career : Sharvirala Kethan
-          </Link>
+  href="/"
+  className="
+    text-[#16f2b3]
+    font-bold
+    leading-tight
+    text-xl
+    sm:text-2xl
+    md:text-3xl
+    break-words
+  "
+>
+  Unfolding My Career :{" "}
+  <span className="whitespace-nowrap">
+    Sharvirala Kethan
+  </span>
+</Link>
         </div>
 
         <ul className="mt-4 flex h-screen max-h-0 w-full flex-col items-start text-sm opacity-0 md:mt-0 md:h-auto md:max-h-screen md:w-auto md:flex-row md:space-x-1 md:border-0 md:opacity-100" id="navbar-default">
