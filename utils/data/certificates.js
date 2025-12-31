@@ -28,5 +28,20 @@ export const certificatesData = [
       title: "Web_Hacking",
       image: "/certificates/Web_Hacking.jpg",
     },
+    {
+      title: "B.Tech Certificate",
+      image: "/certificates/btech.jpg",
+      category: "academic"
+    },
+    {
+      title: "12th",
+      image: "/certificates/12th.jpg",
+      category: "academic"
+    },
+    {
+      title: "10th",
+      image: "/certificates/10th.jpg",
+      category: "academic"
+    }
   ];
   
