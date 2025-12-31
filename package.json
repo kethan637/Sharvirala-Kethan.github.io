@@ -3,6 +3,9 @@
   "description": "Portfolio of Sharvirala Kethan",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,16 +13,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "18": "^0.0.0",
     "@emailjs/browser": "^4.3.1",
-    "@next/third-parties": "15.1.1",
+    "@next/third-parties": "15.5.9",
     "axios": "^1.6.8",
     "lottie-react": "^2.4.1",
-    "next": "15.1.1",
-    "node": "^20.19.0",
+    "next": "15.5.9",
     "nodemailer": "^6.9.15",
-    "react": "19.0.0",
-    "react-dom": "19.0.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
     "react-fast-marquee": "^1.6.2",
     "react-google-recaptcha": "^3.1.0",
     "react-icons": "^4.12.0",
@@ -27,11 +28,12 @@
     "sharp": "^0.33.5"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
     "autoprefixer": "latest",
     "eslint": "latest",
-    "eslint-config-next": "15.1.1",
+    "eslint-config-next": "15.5.9",
     "postcss": "latest",
     "sass": "^1.69.5",
-    "tailwindcss": "latest"
+    "tailwindcss": "^3.4.17"
   }
 }

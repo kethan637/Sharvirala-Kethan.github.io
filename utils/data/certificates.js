@@ -20,5 +20,13 @@ export const certificatesData = [
       title: "Machine Learning",
       image: "/certificates/ML.png",
     },
+    {
+      title: "Figma",
+      image: "/certificates/Figma.jpg",
+    },
+    {
+      title: "Web_Hacking",
+      image: "/certificates/Web_Hacking.jpg",
+    },
   ];
   
